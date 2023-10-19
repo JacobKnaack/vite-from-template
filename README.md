@@ -6,17 +6,17 @@ Creates a Vite project with all the necessary dependencies installed and configu
 
 1. Clone this repo to your local machine.
 
-1. Execute the `create_from-template.sh` file using bash.  Make sure to include a name for your project, no spaces please.
+1. Execute the `create_from_template.sh` file using bash.  Make sure to include a name for your project, no spaces please.
 
-```bash
-bash path/to/create_from_template.sh project-name
-```
+    ```shell
+    bash path/to/create_from_template.sh project-name
+    ```
 
 1. Run your scripts!
 
-```bash
+    ```shell
 
-cd project-name
-npm test
+    cd project-name
+    npm test
 
-```
+    ```
