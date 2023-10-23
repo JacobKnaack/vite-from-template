@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # create a new vite project
 
 eval "npm create vite@latest $1 -- --template react"
