@@ -1,10 +1,10 @@
 {
   "name": "vite-from-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates a Vite project with all the necessary dependencies installed and configuration in place.",
   "main": "create_from_template.sh",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "react": "bash react_from_template.sh"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/JacobKnaack/vite-from-template/issues"
   },
-  "homepage": "https://github.com/JacobKnaack/vite-from-template#readme",
-  "bin": {
-    "vite-from-template": "bash ./create_from_template.sh"
-  }
+  "homepage": "https://github.com/JacobKnaack/vite-from-template#readme"
 }
