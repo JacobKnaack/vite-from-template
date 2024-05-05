@@ -1,7 +1,7 @@
 {
   "name": "vite-from-template",
   "version": "1.0.2",
-  "description": "Creates a Vite project with all the necessary dependencies installed and configuration in place.",
+  "description": "Creates a Vite project with all the necessary dependencies installed and configuration in place. Mainly focused on Vitest and JSDom",
   "main": "create_from_template.sh",
   "scripts": {
     "react": "bash ./react_from_template.sh",
@@ -20,6 +20,6 @@
   "homepage": "https://github.com/JacobKnaack/vite-from-template#readme",
   "bin": {
     "react": "bash ./react_from_template.sh",
-    "react_ts": "bash ./react_ts_from_template.sh"
+    "react-ts": "bash ./react_ts_from_template.sh"
   }
 }

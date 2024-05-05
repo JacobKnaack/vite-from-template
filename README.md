@@ -6,17 +6,35 @@ Creates a Vite project with all the necessary dependencies installed and configu
 
 1. Clone this repo to your local machine.
 
-1. Execute the `create_from_template.sh` file using bash.  Make sure to include a name for your project, no spaces please.
+1. Choose the template for your project, this project currently supports `react` and `react-ts`:
 
-    ```shell
-    $bash path/to/react_from_template.sh project-name
+    * React:
+
+    ```bash
+    $ bash path/to/react_from_template.sh project-name
     ```
 
-    or you can run it from the package directory using npm:
+    * React Typescript:
 
-    ```shell
-    $npm run react project-name
+    ```bash
+    $ bash path/to/react_ts_from_template.sh project-name
     ```
+
+    ---
+
+    **NOTE**
+
+    You can also use this packages npm `scripts` to install dependencies, just make sure to move the project out of the `vite-from-template` folder:
+
+    ```bash
+    $ npm run react project-name
+    ```
+
+    ```bash
+    $ npm run react-ts project-name
+    ```
+
+    ---
 
 1. Run your scripts!
 
