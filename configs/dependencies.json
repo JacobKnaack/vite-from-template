@@ -2,5 +2,6 @@
   "vitest",
   "jsdom",
   "@testing-library/react",
-  "@testing-library/jest-dom"
+  "@testing-library/jest-dom",
+  "@types/jest"
 ]
