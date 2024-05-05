@@ -4,7 +4,8 @@
   "description": "Creates a Vite project with all the necessary dependencies installed and configuration in place.",
   "main": "create_from_template.sh",
   "scripts": {
-    "react": "bash ./react_from_template.sh"
+    "react": "bash ./react_from_template.sh",
+    "react-ts": "bash ./react_ts_from_template.sh"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/JacobKnaack/vite-from-template#readme",
   "bin": {
-    "react": "bash ./react_from_template.sh"
+    "react": "bash ./react_from_template.sh",
+    "react_ts": "bash ./react_ts_from_template.sh"
   }
 }
